@@ -3,15 +3,15 @@ import { Button } from './components/ui/button';
 import { Input } from './components/ui/input';
 import { Check, ArrowRight, Circle, Building2, Hammer, Sparkles, Package } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import logo from 'figma:asset/54c215af841b493dc24873d41652cd2f1be68bcd.png';
-import builderSetupScreen from 'figma:asset/fd8042b94193bfe631d1114e9ac8d47238693a96.png';
-import loginScreen from 'figma:asset/109fdae2dd41185ea9575771418de544e1e6548f.png';
-import jobsScreen from 'figma:asset/dd9104df559df8ec92c382ccd1aa51bae80df910.png';
-import neighborhoodsScreen from 'figma:asset/9518a005fc4ad298e18ff628e41c5d9dacff3183.png';
-import flooringCatalogScreen from 'figma:asset/01ef14e911abf27a76478782b11d089bdd8a5428.png';
-import appointmentsScreen from 'figma:asset/877535317b867703a1f7b7347b03674380aaaefd.png';
-import bossDiagram from 'figma:asset/590297e07aa7f336b1704979ae308377bb974e80.png';
-import editFlooringProductScreen from 'figma:asset/eee2f0eef8a927ce020798e3f37ff772b35afb4c.png';
+import logo from '/assets/logo.png';
+import builderSetupScreen from '/assets/builder-setup-screen.png';
+import loginScreen from '/assets/login-screen.png';
+import jobsScreen from '/assets/jobs-screen.png';
+import neighborhoodsScreen from '/assets/neighborhoods-screen.png';
+import flooringCatalogScreen from '/assets/.png';
+import appointmentsScreen from '/assets/appointments-screen.png';
+import bossDiagram from '/assets/boss-diagram.png';
+import editFlooringProductScreen from '/assets/edit-flooring-product-screen.png';
 
 export default function App() {
   const [formData, setFormData] = useState({
