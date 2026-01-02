@@ -516,6 +516,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     Name
                   </label>
                   <Input
+                    name="name"
                     id="name"
                     type="text"
                     required
@@ -529,6 +530,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     Company
                   </label>
                   <Input
+                    name="company"
                     id="company"
                     type="text"
                     required
@@ -542,6 +544,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     Role
                   </label>
                   <Input
+                    name="role"
                     id="role"
                     type="text"
                     required
@@ -555,6 +558,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     Email
                   </label>
                   <Input
+                    name="email"
                     id="email"
                     type="email"
                     required
