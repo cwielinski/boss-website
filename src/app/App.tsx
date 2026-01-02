@@ -8,7 +8,7 @@ import builderSetupScreen from '/assets/builder-setup-screen.png';
 import loginScreen from '/assets/login-screen.png';
 import jobsScreen from '/assets/jobs-screen.png';
 import neighborhoodsScreen from '/assets/neighborhoods-screen.png';
-import flooringCatalogScreen from '/assets/.png';
+import flooringCatalogScreen from '/assets/flooring-catalog-screen.png';
 import appointmentsScreen from '/assets/appointments-screen.png';
 import bossDiagram from '/assets/boss-diagram.png';
 import editFlooringProductScreen from '/assets/edit-flooring-product-screen.png';
